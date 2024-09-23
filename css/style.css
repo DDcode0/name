@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.container{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #111111;
+}
+
+.codeColor{
+    font-size: 4rem;
+  
+}
+
+.change{
+    margin-top: 2rem;
+    font-size: 2rem;
+    border: 0.3rem solid #eee;
+    transition: transform 1s;
+    border-radius: 2rem;
+    outline: none;
+}
+
+.change:hover{
+    cursor: pointer;
+    transform: scale(1.4);
+}
+
